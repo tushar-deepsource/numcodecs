@@ -2,7 +2,7 @@
 applications to dynamically register and look-up codec classes."""
 
 
-codec_registry = dict()
+codec_registry = {}
 
 
 def get_codec(config):
